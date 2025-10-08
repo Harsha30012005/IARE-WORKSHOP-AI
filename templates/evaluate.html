@@ -22,6 +22,7 @@
 <head>
     <title>Evaluate Assignment</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
@@ -35,9 +36,15 @@
         {% if result %}
             <div class="result-box">
                 <h2>Evaluation:</h2>
-                <div class="evaluation-feedback"><strong>Feedback:</strong> {{ result.feedback }}</div>
-                <div class="evaluation-score"><strong>Score:</strong> {{ result.score }}/5</div>
-                <div class="evaluation-ai"><strong>AI Generated:</strong> {{ result.ai_generated }}</div>
+                <div class="evaluation-feedback">
+                    <i class="fas fa-pencil-alt"></i> <strong>Feedback:</strong> {{ result.feedback }}
+                </div>
+                <div class="evaluation-score">
+                    <i class="fas fa-check-circle"></i> <strong>Score:</strong> {{ result.score }}/5
+                </div>
+                <div class="evaluation-ai">
+                    <i class="fas fa-exclamation-triangle"></i> <strong>AI Generated:</strong> {{ result.ai_generated }}
+                </div>
             </div>
         {% endif %}
 
@@ -45,3 +52,4 @@
     </div>
 </body>
 </html>
+

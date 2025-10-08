@@ -36,7 +36,7 @@
                 <h2>Assignment:</h2>
                 {% set questions = assignment.split('<br>') %}
                 {% for q in questions %}
-                    <div class="assignment-question">{{ q|safe }}</div>
+                    <div class="assignment-question"><i class="fas fa-clipboard"></i>{{ q|safe }}</div>
                 {% endfor %}
             </div>
         {% endif %}

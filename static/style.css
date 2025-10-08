@@ -111,3 +111,11 @@ a:hover {
         padding: 20px;
     }
 }
+/* Add spacing between icon and text */
+.assignment-question i,
+.evaluation-feedback i,
+.evaluation-score i,
+.evaluation-ai i {
+    margin-right: 10px;
+    color: #2c3e50;
+}
