@@ -1,0 +1,26 @@
+<!-- <!DOCTYPE html>
+<html>
+<head><title>AI Assignment App</title></head>
+<body>
+    <h1>AI Assignment App</h1>
+    <a href="/generate">Generate Assignment</a><br>
+    <a href="/evaluate">Evaluate Assignment</a>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Assignment App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Assignment App</h1>
+        <div style="display: flex; flex-direction: column; gap: 20px; align-items: center;">
+            <a class="button-link" href="/generate">Generate Assignment</a>
+            <a class="button-link" href="/evaluate">Evaluate Assignment</a>
+        </div>
+    </div>
+</body>
+</html>
