@@ -34,7 +34,10 @@
         {% if assignment %}
             <div class="result-box">
                 <h2>Assignment:</h2>
-                <p>{{ assignment|safe }}</p>
+                {% set questions = assignment.split('<br>') %}
+                {% for q in questions %}
+                    <div class="assignment-question">{{ q|safe }}</div>
+                {% endfor %}
             </div>
         {% endif %}
 
@@ -42,4 +45,3 @@
     </div>
 </body>
 </html>
-

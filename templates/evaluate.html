@@ -35,9 +35,9 @@
         {% if result %}
             <div class="result-box">
                 <h2>Evaluation:</h2>
-                <p><strong>Feedback:</strong> {{ result.feedback }}</p>
-                <p><strong>Score:</strong> {{ result.score }}/5</p>
-                <p><strong>AI Generated:</strong> {{ result.ai_generated }}</p>
+                <div class="evaluation-feedback"><strong>Feedback:</strong> {{ result.feedback }}</div>
+                <div class="evaluation-score"><strong>Score:</strong> {{ result.score }}/5</div>
+                <div class="evaluation-ai"><strong>AI Generated:</strong> {{ result.ai_generated }}</div>
             </div>
         {% endif %}
 
