@@ -105,12 +105,8 @@ def generate():
     assignment = ""
     if request.method == 'POST':
         topic = request.form.get('topic')
-        num_questions = request.form.get('num_questions', 3)  # default to 3 if not provided
-        prompt = PromptTemplate(
-            input_variables=["topic", "num_questions"],
-            template="Generate a short {num_questions}-question assignment on the topic: {topic}"
-        )
-        raw_assignment = conversation.run(prompt.format(topic=topic, num_questions=num_questions))
+        assignment_prompt = f"Generate a short 3-question assignment on the topic: {topic}"
+        raw_assignment = conversation.run(assignment_prompt)
         assignment = Markup(raw_assignment.replace('\n', '<br>'))
     return render_template("generate.html", assignment=assignment)
 
