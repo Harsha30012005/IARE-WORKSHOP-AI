@@ -23,12 +23,12 @@ This project is ideal for students and beginners who want to explore AI applicat
 
 
 Assessment-Generator/
-├── app.py             # Flask web application
+\'''├── app.py             # Flask web application
 ├── project.ipynb      # Jupyter Notebook demonstrating AI models
 ├── requirements.txt   # Python dependencies
 ├── static/            # Static files (CSS, JS, images)
 ├── templates/         # HTML templates for web interface
-└── .gitignore         # Files to ignore in Git
+└── .gitignore         # Files to ignore in Git '''\
 
 
 
