@@ -49,8 +49,8 @@ Assessment-Generator/
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/Harsha30012005/IARE-WORKSHOP-AI.git
-cd IARE-WORKSHOP-AI
+git clone https://github.com/Harsha30012005/ASSESSMENT-GENERATOR.git
+cd ASSESSMENT-GENERATOR
 
 ---
 ## 2️⃣ Install dependencies
