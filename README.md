@@ -28,7 +28,9 @@ Assessment-Generator/
 ├── requirements.txt   # Python dependencies
 ├── static/            # Static files (CSS, JS, images)
 ├── templates/         # HTML templates for web interface
-└── .gitignore         # Files to ignore in Git ```
+└── .gitignore         # Files to ignore in Git 
+```
+
 
 
 
