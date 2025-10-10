@@ -37,21 +37,21 @@ Assessment-Generator/
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/Harsha30012005/IARE-WORKSHOP-AI.git
 cd IARE-WORKSHOP-AI
 
-
-2️⃣ Install dependencies
+---
+## 2️⃣ Install dependencies
 
 pip install -r requirements.txt
 
 
-3️⃣ Run the web application
+## 3️⃣ Run the web application
 
 python app.py
 
-📦 Requirements
+## 📦 Requirements
 Python 3.x
 
 Flask
@@ -68,30 +68,22 @@ TensorFlow or PyTorch (if used in the notebook)
 
 All dependencies are included in requirements.txt.
 
-💻 Usage
+## 💻 Usage
 Web Interface: Interactively generate and test assessments via the Flask app.
 
 Jupyter Notebook: Step-by-step demonstrations of AI workflows and model experiments.
 
-🌟 Features
+## 🌟 Features
 Interactive assessment generation
 
 Step-by-step demonstration notebook
 
 Clean web interface for AI interaction
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
 See the LICENSE file for more details.
 
-🙏 Acknowledgements
-Special thanks to IARE for organizing the AI workshop and providing resources to develop this project.
-
-
-
-This is a **fully updated, clean, and professional README** for your **Assessment Generator** project.  
-
-If you want, I can also **add a “Demo / Screenshots” section** so your GitHub repo looks visually impressive. Do you want me to do that?
 
 
 
