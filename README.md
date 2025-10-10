@@ -23,7 +23,7 @@ This project is ideal for students and beginners who want to explore AI applicat
 ## 🌐 Live Demo
 
 You can access the deployed project directly here:  
-[Assessment Generator Live Demo](https://assessment-generator-3pr3.onrender.com/generate)
+[Assessment Generator Live Demo](https://assessment-generator-3pr3.onrender.com/)
 
 ---
 
